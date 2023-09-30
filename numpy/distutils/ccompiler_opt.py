@@ -233,7 +233,7 @@ class _Config:
     )
     conf_min_features = dict(
         x86 = "SSE SSE2",
-        x64 = "SSE SSE2 SSE3",
+        #x64 = "SSE SSE2 SSE3",
         ppc64 = '', # play it safe
         ppc64le = "VSX VSX2",
         s390x = '',
